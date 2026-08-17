@@ -43,15 +43,24 @@ export interface UnitValueItem {
 }
 
 export const ACTIVE_CODES: CodeItem[] = [
-  { code: 'SUMMER2026', reward: '1,000 Free Gems & 5x Trait Crystals', status: 'Active', addedDate: 'August 2026' },
-  { code: 'DRAGONQUEEN', reward: '500 Gems & 2x Wish Pearls', status: 'Active', addedDate: 'August 2026' },
-  { code: 'SHADOWUPDATE', reward: '800 Gems & 3x Trait Crystals', status: 'Active', addedDate: 'August 2026' },
-  { code: 'SECRETUNIT', reward: '1x Secret Summon Ticket & 500 Gems', status: 'Active', addedDate: 'July 2026' },
-  { code: 'DEFENDERS2026', reward: '1,500 Free Gems', status: 'Active', addedDate: 'July 2026' },
-  { code: 'ALMIGHTY', reward: '5x Trait Crystals', status: 'Active', addedDate: 'June 2026' },
+  { code: 'REDONE', reward: 'Exclusive Wish Ticket', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'ELEMENTS', reward: '1,000 Ancient Relics', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'SKILLTREES', reward: '5x Divine Trait Crystals', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'incredibilli', reward: '800 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'MEMBEREREBREWRERES', reward: '400 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'subcool', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2toadboigaming', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2jonaslyz', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2riktime', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2mozking', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2nagblox', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'sub2karizmaqt', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [
+  { code: 'SUMMER2026', reward: '1,000 Free Gems', status: 'Expired' },
+  { code: 'DRAGONQUEEN', reward: '500 Gems', status: 'Expired' },
+  { code: 'SHADOWUPDATE', reward: '800 Gems', status: 'Expired' },
   { code: 'RELEASE500', reward: '500 Gems', status: 'Expired' },
   { code: 'UPDATE1GEMS', reward: '300 Gems', status: 'Expired' },
   { code: 'THANKYOU100K', reward: '1,000 Gems', status: 'Expired' },

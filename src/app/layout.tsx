@@ -4,6 +4,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://anime-defenders-wiki.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   title: 'Anime Defenders Codes & Secret Unit Tier List (August 2026) — Roblox Wiki',
   description: 'Updated Roblox Anime Defenders (AD) codes for free Gems and Trait Crystals. Explore Secret unit DPS tier lists, Almighty trait rerolls, and evolution recipes.',
   keywords: [
@@ -32,6 +36,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
   verification: {
     google: 'K0YFUdYGQH2cucEllkbzoEcKAZoFJ7rGguAERbz2ZGM',
   },
@@ -42,8 +49,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Anime Defenders Wiki',
+    url: 'https://anime-defenders-wiki.vercel.app',
+    description: 'The ultimate Roblox Anime Defenders community database with codes, tier lists, and evolution recipes.',
+  };
+
   return (
     <html lang="en" className="dark">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-[#08040d] text-amber-50 min-h-screen flex flex-col antialiased">
         <Navbar />
         <main className="flex-grow">{children}</main>
@@ -52,3 +73,4 @@ export default function RootLayout({
     </html>
   );
 }
+

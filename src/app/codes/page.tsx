@@ -5,17 +5,53 @@ import CopyButton from '@/components/CopyButton';
 
 export const metadata: Metadata = {
   title: 'Anime Defenders Codes (August 2026) — Free Gems & Trait Crystals',
-  description: 'All active Roblox Anime Defenders (AD) codes for free Gems, Trait Crystals, and Wish Pearls. Tested daily.',
+  description: 'All active Roblox Anime Defenders (AD) codes for free Gems, Trait Crystals, and Wish Pearls. Tested and verified for August 2026.',
 };
 
 export default function CodesPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I redeem codes in Roblox Anime Defenders?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Spawn into the main lobby in Anime Defenders, click the top-left menu gear icon, select Codes, paste an active code and press Redeem to claim free rewards.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Why is my Anime Defenders code not working?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Anime Defenders codes are case-sensitive and expire quickly. Ensure you type the code exactly as shown and meet any level requirements.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How to get more free Gems and Trait Crystals in AD?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Besides redeeming active codes daily, you can earn free Gems by completing daily quests, farming Infinite Tower waves, and claiming battle pass rewards.',
+        },
+      },
+    ],
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Header */}
       <div className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-inner">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Verified Active in Roblox AD: August 12, 2026</span>
+          <span>Verified Active in Roblox AD: August 17, 2026</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
           Anime Defenders Codes <span className="text-amber-400">(August 2026)</span>
@@ -112,3 +148,4 @@ export default function CodesPage() {
     </div>
   );
 }
+

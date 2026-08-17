@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Shield, ExternalLink, Heart } from 'lucide-react';
-import MatrixNav from './MatrixNav';
 
 export default function Footer() {
   return (
@@ -78,11 +77,6 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </div>
-      </div>
-
-      <MatrixNav />
-
       <div className="max-w-7xl mx-auto pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <div>&copy; {new Date().getFullYear()} Anime Defenders Wiki. All rights reserved.</div>
         <div className="flex items-center gap-1">

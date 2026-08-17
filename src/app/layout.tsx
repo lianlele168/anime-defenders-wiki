@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://anime-defenders-wiki.vercel.app'),
+  metadataBase: new URL('https://animedefenders.robloxwikihub.com'),
   alternates: {
     canonical: '/',
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Anime Defenders Codes & Unit Tier List — Roblox AD Wiki',
     description: 'Get active Anime Defenders codes for Gems & Trait Crystals, unit tier lists, and trade values.',
-    url: 'https://anime-defenders-wiki.vercel.app',
+    url: 'https://animedefenders.robloxwikihub.com',
     siteName: 'Anime Defenders Wiki',
     locale: 'en_US',
     type: 'website',
@@ -53,7 +53,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Anime Defenders Wiki',
-    url: 'https://anime-defenders-wiki.vercel.app',
+    url: 'https://animedefenders.robloxwikihub.com',
     description: 'The ultimate Roblox Anime Defenders community database with codes, tier lists, and evolution recipes.',
   };
 

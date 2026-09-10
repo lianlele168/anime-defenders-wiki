@@ -77,7 +77,9 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-      <div className="max-w-7xl mx-auto pt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto pt-8 mt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <div>&copy; {new Date().getFullYear()} Anime Defenders Wiki. All rights reserved.</div>
         <div className="flex items-center gap-1">
           <span>Crafted for AD players with</span>

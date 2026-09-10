@@ -5,9 +5,6 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://animedefenders.robloxwikihub.com'),
-  alternates: {
-    canonical: '/',
-  },
   title: 'Anime Defenders Codes & Secret Unit Tier List (August 2026) — Roblox Wiki',
   description: 'Updated Roblox Anime Defenders (AD) codes for free Gems and Trait Crystals. Explore Secret unit DPS tier lists, Almighty trait rerolls, and evolution recipes.',
   keywords: [

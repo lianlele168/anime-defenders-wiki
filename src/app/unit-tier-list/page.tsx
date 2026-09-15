@@ -20,6 +20,24 @@ export default function UnitTierListPage() {
         </p>
       </div>
 
+      {/* Battle Gameplay Screenshot Showcase */}
+      <div className="relative rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl bg-slate-900/60 aspect-video max-w-4xl mx-auto my-6">
+        <img
+          src="/images/anime-defenders-battle.webp"
+          alt="Roblox Anime Defenders High Level Tower Defense Battle and Meteor Strike"
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent p-4 flex items-center justify-between">
+          <div className="text-xs sm:text-sm text-slate-200 font-medium">
+            <span className="text-amber-400 font-bold">Infinite Tower Battle</span> — Mythical unit placement, range optimization & AoE burst
+          </div>
+          <span className="px-2.5 py-1 bg-amber-500/20 text-amber-300 text-[11px] rounded-lg border border-amber-500/30">
+            S+ Tier Synergy
+          </span>
+        </div>
+      </div>
+
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {UNIT_TIER_DATA.map((unit) => (

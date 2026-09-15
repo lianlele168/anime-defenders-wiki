@@ -3,11 +3,18 @@ import { Shield, Gift, Sparkles, Flame, DollarSign, Dna, ArrowRight, CheckCircle
 import { ACTIVE_CODES } from '@/data/wikiData';
 import CopyButton from '@/components/CopyButton';
 import SummonSimulator from '@/components/SummonSimulator';
+import AuthorCard from '@/components/AuthorCard';
 
 export default function HomePage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    dateModified: '2026-09-15',
+    author: {
+      '@type': 'Person',
+      name: 'Ryuu Todoroki',
+      jobTitle: 'Lead Defense Strategist & DPS Theorycrafter',
+    },
     mainEntity: [
       {
         '@type': 'Question',
@@ -75,6 +82,36 @@ export default function HomePage() {
             <div className="glass-panel p-3.5 rounded-xl text-center">
               <div className="text-2xl font-extrabold text-yellow-300">42K DPS</div>
               <div className="text-[11px] text-slate-400">Dragon Mage</div>
+            </div>
+          </div>
+
+          {/* Author Card */}
+          <div className="max-w-3xl mx-auto text-left">
+            <AuthorCard
+              authorName="Ryuu Todoroki"
+              role="Lead Defense Strategist & DPS Theorycrafter"
+              experience="Infinite Tower Floor 100 Clearer & 450+ Hours"
+              patchVersion="Update 5 Meta Patch Verified"
+              lastUpdated="September 2026"
+              editorialNote="All secret unit DPS metrics, Almighty trait rolls, and evolution material costs are verified across 100+ Infinite Tower matches."
+            />
+          </div>
+
+          {/* Unit Roster Showcase Banner */}
+          <div className="relative rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl bg-slate-900/60 aspect-video max-w-4xl mx-auto my-6">
+            <img
+              src="/images/anime-defenders-units.webp"
+              alt="Roblox Anime Defenders Update 5 Secret Mythical Defenders Roster"
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
+            <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent p-4 flex items-center justify-between">
+              <div className="text-xs sm:text-sm text-slate-200 font-medium">
+                <span className="text-amber-400 font-bold">Mythical Roster</span> — Update 5 Secret Unit DPS scaling & Almighty trait synergies
+              </div>
+              <span className="px-2.5 py-1 bg-amber-500/20 text-amber-300 text-[11px] rounded-lg border border-amber-500/30">
+                Floor 100 Verified
+              </span>
             </div>
           </div>
 

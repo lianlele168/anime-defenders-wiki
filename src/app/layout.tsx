@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://animedefenders.robloxwikihub.com'),
-  title: 'Anime Defenders Codes & Secret Unit Tier List (August 2026) — Roblox Wiki',
+  title: 'Anime Defenders Codes & Secret Unit Tier List (September 2026) — Roblox Wiki',
   description: 'Updated Roblox Anime Defenders (AD) codes for free Gems and Trait Crystals. Explore Secret unit DPS tier lists, Almighty trait rerolls, and evolution recipes.',
   keywords: [
     'anime defenders codes',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'anime defenders secret units',
     'anime defenders trait tier list',
     'anime defenders dragon mage',
-    'anime defenders codes august 2026'
+    'anime defenders codes september 2026'
   ],
   authors: [{ name: 'Anime Defenders Wiki Team' }],
   openGraph: {

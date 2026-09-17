@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 import Link from 'next/link';
 import { Shield, Gift, Sparkles, Flame, DollarSign, Dna, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { ACTIVE_CODES } from '@/data/wikiData';
@@ -18,7 +25,7 @@ export default function HomePage() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What are the active Anime Defenders codes for August 2026?',
+        name: 'What are the active Anime Defenders codes for September 2026?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'Active Anime Defenders codes include SUMMER2026, DRAGONQUEEN, SHADOWUPDATE, and SECRETUNIT. Redeem them for free Gems, Trait Crystals, and Wish Pearls.',
@@ -51,7 +58,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium bg-amber-900/40 text-amber-300 border border-amber-700/50 shadow-inner">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>Updated for August 2026 Update 4</span>
+            <span>Updated for September 2026 Update 4</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight max-w-4xl mx-auto leading-tight">

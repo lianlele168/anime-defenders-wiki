@@ -3,7 +3,11 @@ import { Flame, Sparkles, CheckCircle2 } from 'lucide-react';
 import { TRAIT_TIER_DATA } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Anime Defenders Trait Tier List (August 2026) — Almighty & Precision',
+  alternates: {
+    canonical: '/traits-guide',
+  },
+
+  title: 'Anime Defenders Trait Tier List (September 2026) — Almighty & Precision',
   description: 'Ranking for all unit traits in Anime Defenders including Almighty (0.1%), Precision III, and Swiftness III.',
 };
 

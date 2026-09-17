@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Anime Defenders Calculator: Summon Simulator & Trait Reroll Odds',
   description: 'Interactive Roblox Anime Defenders calculator. Simulate Banner summons with authentic 0.1% Secret & 0.75% Mythic odds, calculate Trait Crystal rerolls (Almighty & Precision), and track Gem costs.',
   alternates: {
-    canonical: 'https://animedefenders.robloxwikihub.com/calculator/',
+    canonical: 'https://animedefenders.robloxwikihub.com/calculator',
   },
   openGraph: {
     title: 'Anime Defenders Summon & Trait Calculator',
     description: 'Simulate summons and calculate trait reroll odds for Roblox Anime Defenders.',
-    url: 'https://animedefenders.robloxwikihub.com/calculator/',
+    url: 'https://animedefenders.robloxwikihub.com/calculator',
     type: 'website',
   },
 };
@@ -22,7 +22,7 @@ export default function CalculatorPage() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'Anime Defenders Summon Simulator & Trait Reroll Calculator',
-    url: 'https://animedefenders.robloxwikihub.com/calculator/',
+    url: 'https://animedefenders.robloxwikihub.com/calculator',
     applicationCategory: 'GameApplication',
     operatingSystem: 'All',
     offers: {

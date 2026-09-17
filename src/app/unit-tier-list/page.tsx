@@ -3,7 +3,11 @@ import { Sparkles, Flame, Zap, Shield } from 'lucide-react';
 import { UNIT_TIER_DATA } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Anime Defenders Secret Unit Tier List (August 2026) — Best DPS Units',
+  alternates: {
+    canonical: '/unit-tier-list',
+  },
+
+  title: 'Anime Defenders Secret Unit Tier List (September 2026) — Best DPS Units',
   description: 'Rankings for all Secret and Mythic units in Anime Defenders including Dragon Mage, Shadow Dragon, and Divine Sorcerer.',
 };
 

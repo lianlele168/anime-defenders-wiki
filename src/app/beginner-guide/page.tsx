@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { BookOpen, Shield, Sparkles, Zap, Trophy, HelpCircle, Coins, Flame, Crosshair } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/beginner-guide',
+  },
+
   title: 'Anime Defenders Strategy Guide — Infinite Mode Wave 100+ & Farm Economy',
   description: 'Pro strategy guide for Roblox Anime Defenders. Master early-game farm economy, Divine Sorcerer stun rotations, Almighty trait synergies, and Hall of Mirrors wave defense.',
   keywords: ['anime defenders guide', 'anime defenders infinite mode', 'anime defenders wave 100', 'anime defenders farm placement', 'anime defenders best team']

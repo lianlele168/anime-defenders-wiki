@@ -3,7 +3,11 @@ import { DollarSign, Gem, Award } from 'lucide-react';
 import { UNIT_VALUE_DATA } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Anime Defenders Unit Value List (August 2026) — Trade Values',
+  alternates: {
+    canonical: '/unit-value-list',
+  },
+
+  title: 'Anime Defenders Unit Value List (September 2026) — Trade Values',
   description: 'Trading market values for Shiny Secret units, Evolved Mythics, and Wish Pearls in Roblox Anime Defenders.',
 };
 

@@ -3,7 +3,11 @@ import { Dna, Sparkles, Coins } from 'lucide-react';
 import { EVOLUTION_DATA } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Anime Defenders Evolution Guide (August 2026) — Star Crystals & Recipes',
+  alternates: {
+    canonical: '/evolution-guide',
+  },
+
+  title: 'Anime Defenders Evolution Guide (September 2026) — Star Crystals & Recipes',
   description: 'How to evolve Dragon Mage, Divine Sorcerer, and Shadow Dragon in Roblox Anime Defenders with Star Crystals and Gold recipes.',
 };
 

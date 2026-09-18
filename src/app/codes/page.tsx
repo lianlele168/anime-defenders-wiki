@@ -8,8 +8,8 @@ export const metadata: Metadata = {
     canonical: '/codes',
   },
 
-  title: 'Anime Defenders Codes (September 2026) — Free Gems & Trait Crystals',
-  description: 'All active Roblox Anime Defenders (AD) codes for free Gems, Trait Crystals, and Wish Pearls. Tested and verified for September 2026.',
+  title: 'Anime Defenders Codes — Free Gems & Trait Crystals',
+  description: 'All active Roblox Anime Defenders (AD) codes for free Gems, Trait Crystals, and Wish Pearls. Tested and verified for .',
 };
 
 export default function CodesPage() {
@@ -55,10 +55,10 @@ export default function CodesPage() {
       <div className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-inner">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Verified Active in Roblox AD: August 17, 2026</span>
+          <span>Verified Active in Roblox AD: </span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Anime Defenders Codes <span className="text-amber-400">(September 2026)</span>
+          Anime Defenders Codes <span className="text-amber-400"></span>
         </h1>
         <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
           Redeem these official Roblox Anime Defenders (AD) codes to unlock thousands of free Gems, Trait Crystals, and Wish Pearls.

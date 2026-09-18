@@ -43,18 +43,18 @@ export interface UnitValueItem {
 }
 
 export const ACTIVE_CODES: CodeItem[] = [
-  { code: 'REDONE', reward: 'Exclusive Wish Ticket', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'ELEMENTS', reward: '1,000 Ancient Relics', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'SKILLTREES', reward: '5x Divine Trait Crystals', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'incredibilli', reward: '800 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'MEMBEREREBREWRERES', reward: '400 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'subcool', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2toadboigaming', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2jonaslyz', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2riktime', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2mozking', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2nagblox', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
-  { code: 'sub2karizmaqt', reward: '50 Free Gems', status: 'Active', addedDate: 'August 17, 2026' },
+  { code: 'REDONE', reward: 'Exclusive Wish Ticket', status: 'Active', addedDate: '' },
+  { code: 'ELEMENTS', reward: '1,000 Ancient Relics', status: 'Active', addedDate: '' },
+  { code: 'SKILLTREES', reward: '5x Divine Trait Crystals', status: 'Active', addedDate: '' },
+  { code: 'incredibilli', reward: '800 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'MEMBEREREBREWRERES', reward: '400 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'subcool', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2toadboigaming', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2jonaslyz', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2riktime', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2mozking', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2nagblox', reward: '50 Free Gems', status: 'Active', addedDate: '' },
+  { code: 'sub2karizmaqt', reward: '50 Free Gems', status: 'Active', addedDate: '' },
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [

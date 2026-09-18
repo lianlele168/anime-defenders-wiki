@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/unit-tier-list',
   },
 
-  title: 'Anime Defenders Secret Unit Tier List (September 2026) — Best DPS Units',
+  title: 'Anime Defenders Secret Unit Tier List — Best DPS Units',
   description: 'Rankings for all Secret and Mythic units in Anime Defenders including Dragon Mage, Shadow Dragon, and Divine Sorcerer.',
 };
 

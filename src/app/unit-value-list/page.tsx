@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/unit-value-list',
   },
 
-  title: 'Anime Defenders Unit Value List (September 2026) — Trade Values',
+  title: 'Anime Defenders Unit Value List — Trade Values',
   description: 'Trading market values for Shiny Secret units, Evolved Mythics, and Wish Pearls in Roblox Anime Defenders.',
 };
 

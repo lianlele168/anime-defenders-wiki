@@ -14,7 +14,7 @@ export default function AuthorCard({
   role = 'Lead Defense Strategist & DPS Theorycrafter',
   experience = 'Infinite Tower Floor 100 Clearer & 450+ Hours',
   patchVersion = 'Update 5 Meta Patch Verified',
-  lastUpdated = 'September 2026',
+  lastUpdated = '',
   editorialNote = 'All secret unit DPS metrics, Almighty trait rolls, and evolution material costs are verified across 100+ Infinite Tower matches.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-amber-500/10 text-amber-300 border border-amber-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-slate-400">
-            Updated: <strong className="text-slate-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 

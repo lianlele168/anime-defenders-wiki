@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/evolution-guide',
   },
 
-  title: 'Anime Defenders Evolution Guide (September 2026) — Star Crystals & Recipes',
+  title: 'Anime Defenders Evolution Guide — Star Crystals & Recipes',
   description: 'How to evolve Dragon Mage, Divine Sorcerer, and Shadow Dragon in Roblox Anime Defenders with Star Crystals and Gold recipes.',
 };
 

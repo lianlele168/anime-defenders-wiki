@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/traits-guide',
   },
 
-  title: 'Anime Defenders Trait Tier List (September 2026) — Almighty & Precision',
+  title: 'Anime Defenders Trait Tier List — Almighty & Precision',
   description: 'Ranking for all unit traits in Anime Defenders including Almighty (0.1%), Precision III, and Swiftness III.',
 };
 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'anime defenders dragon mage',
     'anime defenders codes '
   ],
-  authors: [{ name: 'Anime Defenders Wiki Team' }],
+  authors: [{ name: 'Hlele' }],
   openGraph: {
     title: 'Anime Defenders Codes & Unit Tier List — Roblox AD Wiki',
     description: 'Get active Anime Defenders codes for Gems & Trait Crystals, unit tier lists, and trade values.',

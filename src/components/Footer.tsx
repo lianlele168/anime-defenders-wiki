@@ -21,6 +21,9 @@ export default function Footer() {
           <div className="text-[11px] text-slate-500">
             Disclaimer: Anime Defenders Wiki is an unofficial fan resource. Roblox and Anime Defenders are registered trademarks of their respective owners.
           </div>
+          <div className="text-[11px] text-slate-500">
+            Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail
+          </div>
         </div>
 
         {/* Wiki Links */}

@@ -10,12 +10,12 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Ryuu Todoroki',
-  role = 'Lead Defense Strategist & DPS Theorycrafter',
-  experience = 'Infinite Tower Floor 100 Clearer & 450+ Hours',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = 'Update 5 Meta Patch Verified',
   lastUpdated = '',
-  editorialNote = 'All secret unit DPS metrics, Almighty trait rolls, and evolution material costs are verified across 100+ Infinite Tower matches.',
+  editorialNote = 'All data is cross-verified from multiple sources; unverified values are explicitly labeled.',
 }: AuthorCardProps) {
   return (
     <div className="w-full rounded-2xl bg-slate-900/70 border border-amber-500/20 p-4 sm:p-5 backdrop-blur-md my-6 text-left shadow-lg">

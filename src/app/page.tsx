@@ -19,8 +19,8 @@ export default function HomePage() {
 
     author: {
       '@type': 'Person',
-      name: 'Ryuu Todoroki',
-      jobTitle: 'Lead Defense Strategist & DPS Theorycrafter',
+      name: 'Hlele',
+      jobTitle: 'Editor',
     },
     mainEntity: [
       {
@@ -95,11 +95,11 @@ export default function HomePage() {
           {/* Author Card */}
           <div className="max-w-3xl mx-auto text-left">
             <AuthorCard
-              authorName="Ryuu Todoroki"
-              role="Lead Defense Strategist & DPS Theorycrafter"
-              experience="Infinite Tower Floor 100 Clearer & 450+ Hours"
+              authorName="Hlele"
+              role="Editor"
+              experience="AI-assisted research, human-reviewed"
               patchVersion="Update 5 Meta Patch Verified"
-              editorialNote="All secret unit DPS metrics, Almighty trait rolls, and evolution material costs are verified across 100+ Infinite Tower matches."
+              editorialNote="All data is cross-verified from multiple sources; unverified values are explicitly labeled."
             />
           </div>
 

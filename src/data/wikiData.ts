@@ -46,10 +46,6 @@ export const ACTIVE_CODES: CodeItem[] = [
   { code: 'REDONE', reward: 'Exclusive Wish Ticket', status: 'Active', addedDate: '' },
   { code: 'ELEMENTS', reward: '1,000 Ancient Relics', status: 'Active', addedDate: '' },
   { code: 'SKILLTREES', reward: '5x Divine Trait Crystals', status: 'Active', addedDate: '' },
-  { code: 'merrychristmas', reward: '1,000 SnowFlakes', status: 'Active', addedDate: '' },
-  { code: 'hollydefenders', reward: '1 Wish', status: 'Active', addedDate: '' },
-  { code: 'xmassoon', reward: '1 Wish', status: 'Active', addedDate: '' },
-  { code: 'sowy4delay', reward: '5 Divine Trait Crystals', status: 'Active', addedDate: '' },
   { code: 'incredibilli', reward: '800 Free Gems', status: 'Active', addedDate: '' },
   { code: 'MEMBEREREBREWRERES', reward: '400 Free Gems', status: 'Active', addedDate: '' },
   { code: 'subcool', reward: '50 Free Gems', status: 'Active', addedDate: '' },
@@ -62,6 +58,10 @@ export const ACTIVE_CODES: CodeItem[] = [
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [
+  { code: 'merrychristmas', reward: '1,000 SnowFlakes — holiday drop; several trackers now list it as expired', status: 'Expired' },
+  { code: 'hollydefenders', reward: '1 Wish — holiday drop; several trackers now list it as expired', status: 'Expired' },
+  { code: 'xmassoon', reward: '1 Wish — holiday drop; several trackers now list it as expired', status: 'Expired' },
+  { code: 'sowy4delay', reward: '5 Divine Trait Crystals — delay-apology drop; several trackers now list it as expired', status: 'Expired' },
   { code: 'update6', reward: '1,000 Gems', status: 'Expired' },
   { code: 'qolupdate', reward: '1,000 Gems', status: 'Expired' },
   { code: 'sayonaramilton', reward: '8 Divine Trait Crystals', status: 'Expired' },

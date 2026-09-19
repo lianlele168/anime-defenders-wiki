@@ -46,6 +46,10 @@ export const ACTIVE_CODES: CodeItem[] = [
   { code: 'REDONE', reward: 'Exclusive Wish Ticket', status: 'Active', addedDate: '' },
   { code: 'ELEMENTS', reward: '1,000 Ancient Relics', status: 'Active', addedDate: '' },
   { code: 'SKILLTREES', reward: '5x Divine Trait Crystals', status: 'Active', addedDate: '' },
+  { code: 'merrychristmas', reward: '1,000 SnowFlakes', status: 'Active', addedDate: '' },
+  { code: 'hollydefenders', reward: '1 Wish', status: 'Active', addedDate: '' },
+  { code: 'xmassoon', reward: '1 Wish', status: 'Active', addedDate: '' },
+  { code: 'sowy4delay', reward: '5 Divine Trait Crystals', status: 'Active', addedDate: '' },
   { code: 'incredibilli', reward: '800 Free Gems', status: 'Active', addedDate: '' },
   { code: 'MEMBEREREBREWRERES', reward: '400 Free Gems', status: 'Active', addedDate: '' },
   { code: 'subcool', reward: '50 Free Gems', status: 'Active', addedDate: '' },
@@ -58,12 +62,23 @@ export const ACTIVE_CODES: CodeItem[] = [
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [
-  { code: 'SUMMER2026', reward: '1,000 Free Gems', status: 'Expired' },
-  { code: 'DRAGONQUEEN', reward: '500 Gems', status: 'Expired' },
-  { code: 'SHADOWUPDATE', reward: '800 Gems', status: 'Expired' },
-  { code: 'RELEASE500', reward: '500 Gems', status: 'Expired' },
-  { code: 'UPDATE1GEMS', reward: '300 Gems', status: 'Expired' },
-  { code: 'THANKYOU100K', reward: '1,000 Gems', status: 'Expired' },
+  { code: 'update6', reward: '1,000 Gems', status: 'Expired' },
+  { code: 'qolupdate', reward: '1,000 Gems', status: 'Expired' },
+  { code: 'sayonaramilton', reward: '8 Divine Trait Crystals', status: 'Expired' },
+  { code: 'goodbyehelene', reward: '800 Ancient Relics', status: 'Expired' },
+  { code: 'fivepointfive', reward: '100 Solar Tokens', status: 'Expired' },
+  { code: 'tyforfeedback', reward: '100 Aqua Tokens', status: 'Expired' },
+  { code: 'wsindach4ht', reward: '500 Gems', status: 'Expired' },
+  { code: 'dayum100m', reward: '500 Gems', status: 'Expired' },
+  { code: 'sorry4delay', reward: '500 Gems', status: 'Expired' },
+  { code: 'raidsarecool', reward: '500 Gems', status: 'Expired' },
+  { code: 'thanks500k', reward: '500 Gems', status: 'Expired' },
+  { code: 'thanks400k', reward: '500 Gems', status: 'Expired' },
+  { code: 'idk', reward: '750 Gems', status: 'Expired' },
+  { code: 'release2024', reward: '500 Gems', status: 'Expired' },
+  { code: '200kholymoly', reward: '1,000 Gems', status: 'Expired' },
+  { code: 'update2', reward: '600 Gems', status: 'Expired' },
+  { code: 'adontop', reward: '250 Gems', status: 'Expired' },
 ];
 
 export const UNIT_TIER_DATA: UnitItem[] = [
